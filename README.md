@@ -1,3 +1,6 @@
+# Image Classification
+
+# Description
 
 Classify images from the CIFAR-10 dataset. The dataset consists of airplanes, dogs, cats, and other objects. 
 The dataset will need to be preprocessed, then train a convolutional neural network on all the samples. 
@@ -20,11 +23,7 @@ At the end, we'll see their predictions on the sample images.
 
     (a page with authentication token will open; you will need to copy the token into your terminal)
 
-2. Clone this repository:
-
-        git clone https://github.com/ludwiktrammer/deep-learning.git
-
-    Note: There are couple minor differences between this repository and the original Udacity repository. You can read about them [in README](https://github.com/ludwiktrammer/deep-learning/tree/master/image-classification#how-is-this-repository-different-from-the-original). To follow this instructions you need to use this repository.
+2. Clone the repository
 
 3. Enter the folder for the image classification project:
 
@@ -32,7 +31,7 @@ At the end, we'll see their predictions on the sample images.
 
 4. Initiate a Floyd project:
 
-        floyd init dlnd_image_classification
+        floyd init image_classification
 
 5. Run the project:
 
@@ -48,7 +47,7 @@ At the end, we'll see their predictions on the sample images.
  
     (where ID is the "RUN ID" displayed in the terminal when you run the project; if you lost it you can also find it in the ["Experiments" section on floyd.com](https://www.floydhub.com/experiments))
     
-**Important:** When you run a project it will always start from scratch (i.e. from the state present *locally* on your computer). If you made changes in the remote jupiter notebook during a previous run, the changes will **not** be present in subsequent runs. To make them permanent you need to add the changes to your local project folder. When running the notebook you can download them directly from Jupyter - *File / Download / Notebook*. After downloading it, just replace your local `dlnd_image_classification.ipynb` file with the newly downloaded one.
+**Important:** When you run a project it will always start from scratch (i.e. from the state present *locally* on your computer). If you made changes in the remote jupiter notebook during a previous run, the changes will **not** be present in subsequent runs. To make them permanent you need to add the changes to your local project folder. When running the notebook you can download them directly from Jupyter - *File / Download / Notebook*. After downloading it, just replace your local `image_classification.ipynb` file with the newly downloaded one.
 
 Alternatively, If you already stoped the experiment, you can still download the file using the `floyd output` command:
 
